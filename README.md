@@ -43,7 +43,14 @@ docker images
 Run docker image
 
 ```
-docker run -d -p 5050:5050 architectus-calculonis
+docker run -d -p 5052:5052 architectus-calculonis
+```
+
+These paths should be accessible on the browser after running the image above:
+
+```
+http://localhost:5052/
+http://localhost:5052/api/v1/books/all
 ```
 
 Listing docker image/container status
